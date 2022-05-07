@@ -58,6 +58,16 @@
   margin: 0 auto;
 }
 
+h3{
+  text-decoration: underline;
+}
+
+ul{
+  display: list-item;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
 
 
 

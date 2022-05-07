@@ -3,7 +3,8 @@ import React from "react";
 const AverageRating = function () {
     return (
         <div className ="AvgRate">
-            <h2>Average Ratings</h2>
+            <h3>Average Ratings</h3>
+            <h2>4.3</h2>
         </div>
     )
 }

@@ -3,9 +3,13 @@ import React from 'react'
 const Sidebar = function (props) {
     return(
     <div className='Sidebar'>
-        <h2>Sidebar</h2>
+        <h3>Sidebar</h3>
         <ul>
-            {/* <li><a href='google.com'>{props.list}</a></li> */}
+            <li>Dashboard</li>
+            <li>Widget</li>
+            <li>Reviews</li>
+            <li>Customers</li>
+            <li>Settings</li>
         </ul> 
     </div>
     )
