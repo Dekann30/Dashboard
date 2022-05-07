@@ -1,38 +1,79 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: grid;
+  grid-template-areas:
+  "s r a sa"
+  "s r a sa"
+  "s w w w";
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+.Sidebar,
+.AvgRate,
+.Reviews,
+.SentAnaly,
+.WebVisi {
+  border: 1px solid black;
+}
+
+.Sidebar{
+  background-color: rebeccapurple;
+  grid-area: s;
+  height: 697px;
+}
+
+.Reviews{
+  background-color: blue;
+  grid-area: r;
+  height: 300px;
+  width: 100%;
+}
+
+.AvgRate{
+  background-color: yellow;
+  grid-area: a;
+  height: 300px;
+  width: 100%;
+}
+
+.SentAnaly{
+  background-color: green;
+  grid-area: sa;
+  height: 300px;
+  width: 100%;
+}
+
+.WebVisi{
+  background-color: palevioletred;
+  grid-area: w;
+  height: 397px;
+}
+
+
+
+
+
+
+
+
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  } */
+/* } */
+
+
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */

@@ -2,7 +2,7 @@ import React from "react";
 
 const SentimentAnalysis = function () {
     return (
-        <div className='SentiAna'>
+        <div className='SentAnaly'>
             <h2>Sentiment Analysis</h2>
         </div>
     )
